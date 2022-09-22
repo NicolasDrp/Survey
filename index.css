@@ -1,0 +1,30 @@
+body{
+    background:#a85be7 url(background.png) no-repeat ;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+}
+form{
+    background-color: black;
+    margin: auto;
+    width: 35em;
+    background-blend-mode: lighten;
+    opacity: 0.8;
+    
+}
+input,label{
+    margin-bottom:1em;
+}
+form input,.margin,textarea{
+    margin-left: 3.2em;
+}
+.margininput{
+    width:35em;
+}
+input.submit{
+    width: 35em;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    height: 3em;
+}

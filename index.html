@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Survey</title>
+</head>
+<body>
+    <form>
+        <label for="name" class="margin">Name</label><br/>
+            <input type="text" id="name" class="margininput"><br/>
+        <label for="email" class="margin">Email</label><br/>
+            <input type="text" id="email" class="margininput"><br/>
+        <label for="age" class="margin">Age(optionnal)</label><br/>
+            <input type="number" id="age" class="margininput"><br/>
+        <label for="role" class="margin">Which option best describe your current role?</label><br/>
+            <input type="text" id="role" class="margininput"><br/>
+        <label for="definit" class="margin">Which option recommend freeCodeCamp to a friend?</label><br/>
+            <input type="radio" name="radio" id="definit">
+                <label for="definit">definitely</label><br/>
+            <input type="radio" name="radio" id="maybe">
+                <label for="maybe">maybe</label><br/>
+            <input type="radio" name="radio" id="not">
+                <label for="not">not sure</label> <br/>
+        <label for="fav" class="margin">What is your favorite feature of freeCodeCamp?</label><br/>
+            <input type="text" id="fav" class="margininput"><br/>
+        <label for="1" class="margin">What would u like to see improved?<span>(checkall that apply)</span></label><br/>
+            <input type="checkbox" name="checkbox" id="1">
+        <label for="1">Front'end Projects</label><br/>
+            <input type="checkbox" name="checkbox" id="2">
+        <label for="2">Back-end Projects</label><br/>
+            <input type="checkbox" name="checkbox" id="3">
+        <label for="3">Data Visualisation</label><br/>
+            <input type="checkbox" name="checkbox" id="4">
+        <label for="4">Challenges</label><br/>
+            <input type="checkbox" name="checkbox" id="5">
+        <label for="5">Open Source Community</label><br/>
+            <input type="checkbox" name="checkbox" id="6">
+        <label for="6">Gitter help rooms</label><br/>
+            <input type="checkbox" name="checkbox" id="7">
+        <label for="7">Vidéos</label><br/>
+            <input type="checkbox" name="checkbox" id="8">
+        <label for="8">City Meetups</label><br/>
+            <input type="checkbox" name="checkbox" id="9">
+        <label for="9">Wiky</label><br/>
+            <input type="checkbox" name="checkbox" id="10">
+        <label for="10">Forum</label><br/>
+            <input type="checkbox" name="checkbox" id="11">
+        <label for="11">Additional Courses</label><br/>
+        <label for="comment" class="margin">Any comments or suggestions?</label><br/>
+            <textarea name="textarea" id="comment" placeholder="Enter your comment here..." class="margininput" cols="30" rows="5"></textarea><br/>
+        <input type="submit" value="Submit" class="submit">
+   </form>
+</body>
+</html>
