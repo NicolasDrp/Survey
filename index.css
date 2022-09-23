@@ -5,11 +5,10 @@ body{
     color: white;
 }
 form{
-    background-color: black;
+    background-color: rgb(000000, 000000, 000000,0.7);
     margin: auto;
     width: 35em;
     background-blend-mode: lighten;
-    opacity: 0.8;
     
 }
 input,label{
@@ -27,4 +26,7 @@ input.submit{
     color: white;
     font-weight: bold;
     height: 3em;
+}
+select{
+    margin-left: 3.2em;
 }
